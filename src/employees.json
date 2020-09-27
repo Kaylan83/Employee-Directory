@@ -1,0 +1,124 @@
+[
+    {
+      "id": 1,
+      "name": "Maya Smith",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Software Development",
+      "Email": "M.Smith@email.com",
+      "title": "Full Stack Developer",
+       "DOB": "03.20.1983",
+       "phone": "(970) 857-9867"
+    },
+    {
+      "id": 2,
+      "name": "MIke Anderson",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Software Development",
+      "Email": "M.Anderson@email.com",
+      "title": "Front End Developer",
+      "DOB": "04.22.1974",
+      "phone": "(970) 987-3214"
+    },
+    {
+      "id": 3,
+      "name": "Jay Harris",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Software Development",
+      "Email": "J.Harris@email.com",
+      "title": "Back End Developer",
+      "DOB": "03.30.1980",
+      "phone": "(970) 986-9852"
+    },
+    {
+      "id": 4,
+      "name": "Wendy Wilson",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Accounting",
+      "Email": "W.Wilson@email.com",
+      "title": "Accounting Manager",
+      "DOB": "05.20.1989",
+      "phone": "(970) 857-9638"
+    },
+    {
+      "id": 5,
+      "name": "Wendy Thomas",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Accounting",
+      "Email": "W.Thomas@email.com",
+      "title": "Accounting Assistant",
+      "DOB": "12.20.1990",
+      "phone": "(970) 879-2589"
+    },
+    {
+      "id": 6,
+      "name": "Wille Jack",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Accounting",
+      "Email": "W.Jack@email.com",
+      "title": "Budget Analyst",
+      "DOB": "04.25.1992",
+      "phone": "(470) 523-8569"
+    },
+    {
+      "id": 7,
+      "name": "Brooke Jones",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Marketing",
+      "Email": "B.Jones@email.com",
+      "title": "Marketing Director",
+      "DOB": "05.30.1989",
+      "phone": "(915) 589-9874"
+    },
+    {
+      "id": 8,
+      "name": "Jesse James",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Marketing",
+      "Email": "J.James@email.com",
+      "title": "Marketing Analyst",
+      "DOB": "01.20.1995",
+      "phone": "(970) 875-2369"
+    },
+    {
+      "id": 9,
+      "name": "Lily David",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Human Resource",
+      "Email": "L.David@email.com",
+      "title": "Human Resource Manager",
+      "DOB": "01.02.1980",
+      "phone": "(970) 258-5263"
+    },
+    {
+      "id": 10,
+      "name": "Jessica Jones",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Human Resource",
+      "Email": "J.Jones@email.com",
+      "title": "Administrative Assistant",
+      "DOB": "03.25.1992",
+      "phone": "(915) 232-5489"
+    },
+    {
+      "id": 11,
+      "name": "Zack Mathiew",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Software Development",
+      "Email": "Z.Mathiew@email.com",
+      "title": "Front End Developer",
+      "DOB": "07.23.1987",
+      "phone": "(970) 333-5462"
+    },
+    {
+      "id": 12,
+      "name": "Bruce Wills",
+      "image": "https://img.icons8.com/material-outlined/64/000000/employee-card.png",
+      "department": "Software Development",
+      "Email": "B.Wills@email.com",
+      "title": "Back End Developer",
+      "DOB": "10.21.1989",
+      "phone": "(970) 423-5263"
+    }
+  ]
+
+  
