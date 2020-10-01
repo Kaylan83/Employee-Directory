@@ -1,6 +1,8 @@
 import React from "react";
 import EmployeeRow from "../EmployeeRow/EmployeeRow";
-import employees from "../../employees.json";
+import employees from "../data/employees.json";
+import tableColumns from "../data/tableColumns.json"
+import Search from "../SearchForm/SearchForm"
 import { MDBDataTable } from 'mdbreact';
 
 
@@ -8,62 +10,38 @@ import { MDBDataTable } from 'mdbreact';
 
 const Table = () => {
   const data = {
-    columns: [
-
-      {
-        label: 'Name',
-        field: 'name',
-        sort: 'asc',
-        width: 150
-      },
-      {
-        label: 'Email',
-        field: 'Email',
-        sort: 'asc',
-        width: 270
-      },
-      {
-        label: 'Department',
-        field: 'department',
-        sort: 'asc',
-        width: 200
-      },
-      {
-        label: 'Title',
-        field: 'title',
-        sort: 'asc',
-        width: 100
-      },
-      {
-        label: 'D.O.B',
-        field: 'DOB',
-        sort: 'asc',
-        width: 150
-      },
-      {
-        label: 'Phone',
-        field: 'phone',
-        sort: 'asc',
-        width: 100
-      },
-      {
-        label: 'Email',
-        field: 'Email',
-        sort: 'asc',
-        width: 100
-      }
-    ],
+    columns: tableColumns ,
     rows:employees
   };
 
+  const employee = employees.map((employee) => <EmployeeRow key = {employee.id} employee = {employee}/>)
   return (
     <div className = "container-fluid">
       <MDBDataTable
-      striped
+       striped
       bordered
       large
       data={data}
+      hover
+           
     />
+
+    {/* <Search/>
+    <table className = "table table-bordered table-striped table-dark">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>D.O.B</th>
+          <th>Department</th>
+          <th>Title</th>
+        </tr>
+      </thead>
+      {employee}
+    </table> */}
+
     </div>
 
   );

@@ -3,18 +3,18 @@ import React from "react";
 
 
 function EmployeeRow(props){
-  console.log(props)
+  console.log(props.employee)
 
         return(
-          <tbody>
-            <tr>
-            <th scope="row"> <img src = {props.image}/></th>
-            <th >{props.name}</th>
-            <th > {props.Email}</th>
-            <th > {props.phone}</th>
-            <th > {props.DOB}</th>
-            <th > {props.department}</th>
-            <th > {props.title}</th>
+          <tbody >
+            <tr >
+            <th scope="row"> <img src = {props.employee.image} alt=""/></th>
+            <th >{props.employee.name}</th>
+            <th > {props.employee.Email}</th>
+            <th > {props.employee.phone}</th>
+            <th > {props.employee.DOB}</th>
+            <th > {props.employee.department}</th>
+            <th > {props.employee.title}</th>
             </tr>
 
           </tbody>

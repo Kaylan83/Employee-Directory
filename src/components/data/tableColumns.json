@@ -1,0 +1,42 @@
+[
+
+    {
+      "label": "Name",
+      "field": "name",
+      "sort": "asc",
+      "width": 150
+    },
+ 
+    {
+      "label": "Department",
+      "field": "department",
+      "sort": "asc",
+      "width": 200
+    },
+    {
+      "label": "Title",
+      "field": "title",
+      "sort": "asc",
+      "width": 100
+    },
+    {
+      "label": "D.O.B",
+      "field": "DOB",
+      "sort": "asc",
+      "width": 150
+    },
+    {
+      "label": "Phone",
+      "field": "phone",
+      "sort": "asc",
+      "width": 100
+    },
+    {
+      "label": "Email",
+      "field": "Email",
+      "sort": "asc",
+      "width": 100
+    }
+  ]
+
+ 
