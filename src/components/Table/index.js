@@ -14,7 +14,7 @@ const Table = () => {
     rows:employees
   };
 
-  const employee = employees.map((employee) => <EmployeeRow key = {employee.id} employee = {employee}/>)
+  // const employee = employees.map((employee) => <EmployeeRow key = {employee.id} employee = {employee}/>)
   return (
     <div className = "container-fluid">
       <MDBDataTable
