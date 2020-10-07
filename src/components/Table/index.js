@@ -18,12 +18,14 @@ const Table = () => {
   return (
     <div className = "container-fluid">
       <MDBDataTable
-       striped
+      striped
       bordered
       large
       data={data}
       hover
-           
+      dark
+      tbodyTextWhite
+      theadColor="light"   
     />
 
     {/* <Search/>
